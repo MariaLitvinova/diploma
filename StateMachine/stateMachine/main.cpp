@@ -44,7 +44,7 @@ int main(int argc, char *argv[])
 	QList<State> states = generatedStates();
 	QList<Transition> transitions = generatedTransitions();
 
-    QString const &string = "abbbabc";
+	QString const &string = "abbbabc";
 
 	StateMachine(string, states, transitions, State("S0", "Start"), State("S5", "End"));
 
